@@ -1,0 +1,331 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.header {
+display: flex;
+justify-content: space-around;
+position: sticky;
+top: 0;
+align-items: center;
+background-color: rgb(1, 1, 72);
+}
+div.divbit{
+    display: flex;
+    flex-grow: 3;
+    justify-content: center;
+    color: white;
+    background-color: transparent;
+}
+.profile{
+    margin-right: 10px;
+    color: white;
+    margin-bottom: 5px;
+}
+ div.login{
+    display: flex;
+    justify-content: right;
+    margin-top: 1.5rem;
+    margin-right: 5px;
+    column-gap: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+
+div.divlogin{
+        background-color: transparent;
+            margin-bottom: 4vh;
+            padding: 1vw;
+            border-radius: 1vw;
+            color: white;
+            border:2px solid white;
+        }
+div.divjoin {
+    background-color: blue;
+    margin-bottom: 4vh;
+        padding: 1vw;
+        border-radius: 1vw;
+        color: white;
+        border:2px solid white;
+}
+
+div.divp{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 20px;
+}
+
+
+div.div1{
+    height: 500px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("./assets/mining2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+
+.p2{
+    font-size: 0.8em;
+}
+div.divbody{
+    background-color: white;
+    color:blue;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div.divcontracts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: black;
+}
+div.contacts{
+    background-color: rgb(125, 125, 231);
+    list-style-position: inside;
+    padding: 10px;
+    margin: 10px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li{
+    list-style: none;
+    line-height:30px;
+}
+.contacts button{
+    width: 100%;
+    background-color: green;
+    color: white;
+}
+div.div2{
+    font-family: Tahoma, sans-serif;
+    text-align: left;
+    background-color:white;
+    color: black;
+    margin: 5px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.text-container{
+    border: 3px solid rgb(1, 1, 72);
+    width: 20%;
+    margin: 10px;
+    padding: 5px;
+    text-align: left;
+    height: 200px;
+    transition: all 0.3s ease-in;
+}
+.text-container:hover{
+    border-color: transparent;
+    font-size: 1.2rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 200px;
+    background-color: rgb(5, 21, 120);
+    border:1px solid rgb(5, 21, 43);
+    column-gap: 10px;
+}
+ .footer-element {
+     justify-content: center;
+ }
+.copyright{
+    display: flex;
+        justify-content: space-evenly;
+        background-color: rgb(5, 21, 120);
+}
+div.div3{
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    bottom: 0;
+    height: 10%;
+    background-color:rgb(6, 6, 72);
+}
+/*review styles*/
+.checked{
+    color: orange;
+    font-size: 30px;
+}
+.review{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+form button {
+    background-color: rgb(6, 6, 72);
+    margin-bottom: 10px;
+    border-style: none;
+    border-radius: 100px;
+    width: 60%;
+    height: 30px;
+}
+
+.fieldgroup {
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    color: blue;
+    margin: 30px ;
+}
+.fieldgroup input{
+    width: 100%;
+    height: 50px;
+    border-style: none;
+    border:rgb(6, 6, 72) ;
+}
+.review-field input{
+    height: 100px;
+    border: rgb(6, 6, 72);
+    border: 1px solid grey;
+}
+.field{
+    border: 1px solid grey;
+}
+.star-rating{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+}
+.star-rating input{
+    display: none;
+}
+.star-rating > label{
+    width: 30px;
+    height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: orange;
+}
+.star-rating label::before{
+    content: '\2606';
+}
+.star-rating input:checked ~ label:before{
+    content: '\2605';
+    line-height: 26px;
+}
+
+/*about styles*/
+.about-us{
+    text-decoration: underline;
+}
+.performance{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3px;
+    margin:0px 150px;
+    text-align: left;
+}
+.hww-maindiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 100px;
+}
+.how-we-work{
+    margin: 30px;
+    border: 2px solid gray;
+    width: 37%;
+    height: 200px;
+    padding-top: 20px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+.why-choose-us {
+    margin: 30px;
+    border: 2px solid gray;
+    width: 25%;
+    padding: 20px;
+}
+
+.wc-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.terms{
+    text-align: left;
+    margin-left: 4px;
+}
+.terms h2{
+    text-align: center;
+}
+.terms h1{
+    text-align: center;
+}
+.privacy{
+    text-align: left;
+    margin-left: 4px;
+}
+.privacy h1{
+    text-align: center;
+}
+
+@media(max-width: 700px) {
+    div.div1 {
+            display: block ;
+            justify-content: center;
+            font-size: 18px;
+            font-weight: 600;
+            height: 350px;
+        }
+        div.divcontracts{
+            display: block;
+        }
+        div.contacts{
+            margin: 10px;
+        }
+        div.divp{
+            display: block;
+        }
+        div.login{
+            font-size: 11px;
+        }
+        .footer{
+            display: block;
+            height: 400px;
+        }
+        .footer-element{
+            justify-content: center;
+        }
+        .hww-maindiv{
+            display: block;
+        }
+        .how-we-work{
+            width: 100%;
+        }
+        .wc-main{
+            display: block;
+        }
+        .why-choose-us {
+            width: 80%;
+        }
+        .footer-container{
+            display: block;
+        }
+        .text-container{
+            width: 70%;
+            margin-left: 15%;
+        }
+}   
