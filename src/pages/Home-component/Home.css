@@ -67,8 +67,6 @@ div.div1{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url("./assets/mining2.jpg");
-    background-size: 100%;
     background-repeat: no-repeat;
     padding: 10px;
 }

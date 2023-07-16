@@ -1,11 +1,12 @@
 import React from 'react';
 import './Home.css'
 import { Link } from 'react-router-dom';
+import mining10 from '/assets/mining10.png'
 
 const Homemain = () => {
     return (
         <div>
-             <div className="div1">
+             <div className="div1" style={{backgroundImage:`url(${mining10})`,backgroundSize:'cover'}}>
             <div className="divhero">
                 <p className="p1">
                     We offer you the most profitable and reliable cloud mining contracts by providing daily payout for all the contracts in the currency of the the contract. Start cryptocurrency and stablecoins cloud mining today, and get the first payout tommorow
