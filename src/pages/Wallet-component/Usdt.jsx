@@ -48,9 +48,9 @@ render(){
               height={320}
               data={this.state.graphdata}
               margin={{
-                top: 10,
+                top: 5,
                 right: 15,
-                left: 20,
+                left: 0,
                 bottom: 0,
               }}
             >

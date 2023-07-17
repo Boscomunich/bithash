@@ -58,6 +58,9 @@ const Home = ({username}) => {
                     <li>BithashTeam@outlook.com</li>
                 </ul>
             </div>
+            <div>
+                <li>310 St Vincent Str, Glasgow, Scotland UK</li>
+            </div>
         </div>
         <div className="copyright">
                 <h3>

@@ -24,7 +24,7 @@ const Deposit = () => {
                 <div className='div11'>
                     <h1>Invest</h1>
                 </div>
-                <div className='div12'>
+                <div className='div12' style={{wordWrap:'break-word'}}>
                     { Route === 'deposit' ?
                     <div>
                         <h1>Deposit funds</h1><br/><br/>
@@ -51,7 +51,7 @@ const Deposit = () => {
                     :
                     <div className='address'>
                         { selectedValue === 'btc' ?
-                        (<div>
+                        (<div style={{wordWrap:'break-word'}}>
                             <p ref={textRef}>0x3f229108e72f45a648ea419e167ba771c0fef5c3</p>
                             {copySuccess}
                             <button style={{padding:'5px', backgroundColor:'blue', color:'white'}} onClick={copyToclipboard}>copy</button><br/><br/><br/><br/><br/>
@@ -59,14 +59,14 @@ const Deposit = () => {
                             Bitcoin</strong> network for deposit to avoid loss of funds</p>
                         </div>)
                         :selectedValue === 'usdt' ?
-                        (<div>
+                        (<div style={{wordWrap:'break-word'}}>
                             <p ref={textRef}>0x3f229108e72f45a648ea419e167ba771c0fef5c3</p>
                             {copySuccess}
                             <button style={{padding:'5px', backgroundColor:'blue', color:'white'}} onClick={copyToclipboard}>copy</button><br/><br/><br/><br/><br/>
                             <p>make sure to use <strong>ERC20</strong> network for deposit to avoid loss of funds</p>
                         </div>)
                         : selectedValue === 'eth' ?
-                        (<div>
+                        (<div style={{wordWrap:'break-word'}}>
                             <p ref={textRef}>0x3f229108e72f45a648ea419e167ba771c0fef5c3</p>
                             {copySuccess}
                             <button style={{padding:'5px', backgroundColor:'blue', color:'white'}} onClick={copyToclipboard}>copy</button><br/><br/><br/><br/><br/>
